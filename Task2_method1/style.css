@@ -1,0 +1,22 @@
+#leftBox {
+  width: 33%;
+  height: 200px;
+  float: left;
+}
+#centerBox {
+  width: 33%;
+  height: 200px;
+  float: left;
+}
+#rightBox {
+  width: 33%;
+  height: 200px;
+  float: right;
+}
+#lastParagraph{
+    height: 200px;
+}
+#leftBox2 {
+  width: 33%;
+  float: left;
+}
