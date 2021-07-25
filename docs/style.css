@@ -75,4 +75,268 @@
       justify-content:space-between;
       */
       
+    #id {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.red {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.blue {
+  margin-top: -180px;
+  margin-left: 45px;
+
+}
+.yellow {
+  margin-top: -180px;
+  margin-left: 70px;
+
+}
+#leftBox {
+  width: 33%;
+  height: 200px;
+  float: left;
+}
+#centerBox {
+  width: 33%;
+  height: 200px;
+  float: left;
+}
+#rightBox {
+  width: 33%;
+  height: 200px;
+  float: right;
+}
+#lastParagraph{
+    height: 200px;
+}
+#leftBox2 {
+  width: 33%;
+  float: left;
+}
+
+
+body{
+  height: 100vh;
+  background: url(bg.jpg) no-repeat center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-card{
+  width: 450px;
+  text-align: center;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card-header{
+  background: #e0ddd1;
+  padding: 60px 40px;
+
+}
+
+.pic{
+  /*
+  background: linear-gradient(130deg, #e6e9ec, #e66767);*/
+  display: inline-block;
+  padding: 10px;
+  margin: auto;
+  border-radius: 50%;
+  background-size: 200% 200%;
+  animation: animated-gradient 2s linear infinite;
+}
+
+@keyframes animated-gradient{
+  25%{
+    background-position: left bottom;
+  }
+  50%{
+    background-position: right bottom;
+  }
+  75%{
+    background-position: right top;
+  }
+  100%{
+    background-position: left top;
+  }
+}
+
+.pic img{
+  display: block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.name{
+  color: #585656;
+  font-size: 28px;
+  font-weight: 600;
+  margin: 10px 0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.desc{
+  font-size: 15px;
+  color: #4d4c4c;
+}
+
+.sm{
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.sm a{
+  color: #e94d4d;
+  width: 56px;
+  font-size: 22px;
+  transition: .3s linear;
+}
+
+.sm a:hover{
+  color: #f1f0f0;
+}
+
+.contact-btn{
+  display: inline-block;
+  padding: 12px 50px;
+  color: #f8f8f8;
+  font-size: 100%;
+  font:bold;
+  background-color:#77c7db;
+  border: 2px solid #77c7db;
+  border-radius: 6px;
+  margin-top: 16px;
+  transition: .3s linear;
+}
+
+.fab fa-heart{
+  color:#ebe5d5;
+}
+.fab fa-telegram{
+  color:#ebe5d5; 
+}  
+.contact-btn:hover{
+  background: #fabfbf;
+  color: #201b1b;
+  border: 2px solid #ebe5d5;
+
+}
+
+.card-footer{
+  background: #1a3d66;
+  padding: 40px 10px;
+}
+
+.numbers{
+  display: flex;
+  align-items: center;
+}
+
+.item{
+  flex: 1;
+  font-size: 13px;
+  color: #fdfdfd;
+  align-items: center;
+}
+
+.item a{
+  color:#8b6c6c;
+}
+
+.item span{
+  display: block;
+  color: #8b6c6c;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.homeDirectory{
+  background-color:rgba(255, 182, 193, 0.623);
+  flex-wrap:wrap;
+  padding-left:45%;
+  padding-top: 4%;
+  padding-bottom:2%;
+  justify-content:center;
+  height:5cm;
+  align-items:center;
+  margin-top: -0.5cm;
+  margin-left: -0.5cm;
+  margin-right: -0.5cm;
+  font-size: larger;
+  color: #1c8883;
+  align-content: center;
+  /* // welcome     */
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.nameAndtitle{
+  padding-left:8%;
+}
+
+@media(min-width:460px){
+    .container-2{
+      display:flex;  
+      justify-content:space-around;
+      flex-wrap:wrap;
+      color: #1c8883;
+    }
+  }
+  .container-2 div{
+    border:1px #ccc solid;
+    padding:10px;
+    align-items:center;
+    font-family:sans-serif;
+    position: relative;
+    font-size: 100%;
+  }
+  .container-2-box{
+    position: relative;
+    flex:2;
+    flex-basis: 30%;  
+    align-items:center;  
+  }
+
+  .button{
+    background-color: #26cac2;
+    border: none;
+    color: white;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size:90%;
+    margin: 4px 2px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+  }
+  .button:hover {
+    background-color: white; 
+    color: #1c8883; 
+    border: 2px solid #26cac2;
+    box-shadow: 0 7px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  } 
+       /*
+      align-items:flex-start;
+      align-items:flex-end;
+      align-items:center;
+      
+      flex-direction:column;
+      justify-content:flex-start;
+      justify-content:flex-end;
+      justify-content:center;
+      justify-content:space-around;
+      justify-content:space-between;
+      */
+      
     
+
+
+
+
+
