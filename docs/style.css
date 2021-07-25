@@ -1,0 +1,78 @@
+.homeDirectory{
+  background-color:rgba(255, 182, 193, 0.623);
+  flex-wrap:wrap;
+  padding-left:45%;
+  padding-top: 4%;
+  padding-bottom:2%;
+  justify-content:center;
+  height:5cm;
+  align-items:center;
+  margin-top: -0.5cm;
+  margin-left: -0.5cm;
+  margin-right: -0.5cm;
+  font-size: larger;
+  color: #1c8883;
+  align-content: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.nameAndtitle{
+  padding-left:8%;
+}
+
+@media(min-width:460px){
+    .container-2{
+      display:flex;  
+      justify-content:space-around;
+      flex-wrap:wrap;
+      color: #1c8883;
+    }
+  }
+  .container-2 div{
+    border:1px #ccc solid;
+    padding:10px;
+    align-items:center;
+    font-family:sans-serif;
+    position: relative;
+    font-size: 100%;
+  }
+  .container-2-box{
+    position: relative;
+    flex:2;
+    flex-basis: 30%;  
+    align-items:center;  
+  }
+
+  .button{
+    background-color: #26cac2;
+    border: none;
+    color: white;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size:90%;
+    margin: 4px 2px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+  }
+  .button:hover {
+    background-color: white; 
+    color: #1c8883; 
+    border: 2px solid #26cac2;
+    box-shadow: 0 7px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  } 
+       /*
+      align-items:flex-start;
+      align-items:flex-end;
+      align-items:center;
+      
+      flex-direction:column;
+      justify-content:flex-start;
+      justify-content:flex-end;
+      justify-content:center;
+      justify-content:space-around;
+      justify-content:space-between;
+      */
+      
+    
