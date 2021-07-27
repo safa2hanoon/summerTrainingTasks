@@ -13,10 +13,9 @@
   height: 200px;
   float: right;
 }
-#lastParagraph{
-    height: 200px;
+#last-div {
+  height: 200px;
 }
-#leftBox2 {
-  width: 33%;
-  float: left;
+#last-div-leftParagraph {
+  display: inline-block;
 }
