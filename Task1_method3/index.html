@@ -1,21 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css" />
-</head>
-<body>
-    <div class="red">
-        <img src="redSqure.png" alt="Red square" style="width:200px;height:200px;">
-    </div>
-    <div class="blue">
-        <img src="blueSqure.png" alt="Blue square" style="width:200px;height:200px;" >
-    </div>
-    <div class="yellow">
-        <img src="yellowSqure.png" alt="Yellow square" style="width:200px;height:200px;">
-    </div>
-</body>
+<html lang="En">
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Task#1 Method#3</title>
+      <style>
+        .container {
+          display: flex;
+          flex-direction: row;
+          position: absolute;
+        }
+        
+        .square {
+          width: 140px;
+          height: 140px;
+          position: absolute;
+        }
+
+        .BlueSquare {
+          left: 60px;
+          top: 60px;
+          background-color: blue;
+        }
+
+        .RedSquare {
+          left: 30px;
+          top: 30px;
+          background-color: red;
+        }
+
+        .YellowSquare {
+          left: 90px;
+          top: 90px;
+          background-color: yellow;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="container">
+        <div class="square RedSquare"></div>
+        <div class="square BlueSquare"></div>
+        <div class="square YellowSquare"></div>
+      </div>
+    </body>
+  </html>
 </html>
